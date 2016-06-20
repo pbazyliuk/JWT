@@ -10,12 +10,12 @@ angular.module('jwtNewApp')
         show: true,
         type: type,
         message: message,
-        title, title
+        title: title
       };
       $timeout.cancel(alertTimeout);
       alertTimeout = $timeout(function(){
         $rootScope.alert.show = false;
       }, timeout || 2000);
-    }
+    };
   });
 

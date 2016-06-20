@@ -9,9 +9,8 @@ angular.module('jwtNewApp')
           .success(function(res) {
             alert('success', 'Account created! ', 'Welcome, ' + res.user.email + ' !');
             authToken.setToken(res.token);
-          })
-          .error(function(err) {
-            alert('warning', 'Oops! ', 'Could not register!');
-          })
+          }).error(function(err) {
+            alert('warning', 'Oops! ', 'Could not register!', err.message);
+          });
     };
   });

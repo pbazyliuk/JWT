@@ -9,7 +9,7 @@ angular.module('jwtNewApp')
       })
       .error(function(err) {
         alert('warning', "Unable to get jobs", err.message);
-      })
+      });
 
 
   });
