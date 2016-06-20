@@ -8,7 +8,7 @@ angular.module('jwtNewApp')
         $scope.jobs = jobs;
       })
       .error(function(err) {
-        alert('warning', "Unable to get jobs", err.message);
+        alert('warning', 'Unable to get jobs', err.message);
       });
 
 

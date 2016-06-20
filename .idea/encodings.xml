@@ -5,16 +5,19 @@
     <file url="file://$PROJECT_DIR$/frontend/app/scripts/app.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/frontend/app/scripts/controllers/header.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/frontend/app/scripts/controllers/jobs.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frontend/app/scripts/controllers/login.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/frontend/app/scripts/controllers/logout.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/frontend/app/scripts/controllers/register.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/frontend/app/scripts/directives/validateEquals.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/frontend/app/scripts/services/alert.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frontend/app/scripts/services/auth.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/frontend/app/scripts/services/authinterceptor.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/frontend/app/scripts/services/authtoken.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/frontend/app/styles/main.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/frontend/app/views/alert.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/frontend/app/views/header.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/frontend/app/views/jobs.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frontend/app/views/login.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/frontend/app/views/main.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/frontend/app/views/register.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/frontend/bower_components/jquery/src/var/rcssNum.js" charset="UTF-8" />
