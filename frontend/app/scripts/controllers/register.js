@@ -1,13 +1,13 @@
 'use strict';
 
 angular.module('jwtNewApp')
-  .controller('RegisterCtrl', function ($scope, $http, alert) {
+  .controller('RegisterCtrl', function ($scope, $rootScope, $http, alert, authToken) {
     $scope.submit = function() {
         var url='http://localhost:3000/register';
-      var user = {email: $scope.email, password: $scope.password};
+        var user = {email: $scope.email, password: $scope.password};
         $http.post(url,user)
           .success(function(res) {
-            alert('success', 'Ok! ', 'You are now registered');
+            alert('success', 'Account created! ', 'Welcome, ' + res.user.email + ' !');
             authToken.setToken(res.token);
           })
           .error(function(err) {
